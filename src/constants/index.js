@@ -1,4 +1,4 @@
-export const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://192.168.1.6:8080/api';
+export const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://a9b98ef0.ngrok.io/api';
 export const ACCESS_TOKEN = 'accessToken';
 
 export const POLL_LIST_SIZE = 30;

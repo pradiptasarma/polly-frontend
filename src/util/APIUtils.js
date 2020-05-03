@@ -103,7 +103,7 @@ export function getUserCreatedPolls(username, page, size) {
     size = size || POLL_LIST_SIZE;
 
     return request({
-        url: API_BASE_URL + "/users/" + username + "/poll?page=" + page + "&size=" + size,
+        url: API_BASE_URL + "/users/" + username + "/polls?page=" + page + "&size=" + size,
         method: 'GET'
     });
 }
